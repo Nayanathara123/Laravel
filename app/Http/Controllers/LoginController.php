@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Redirect;
 
 class loginController extends Controller
 {
+    
     public function log_user(Request $request)
     {
         $current_user = $request->session()->get('user_name');
